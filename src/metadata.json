@@ -1,0 +1,8 @@
+{
+  "name": "Apex Crest Roofing",
+  "description": "Premium Canadian roofing services engineered for extreme weather. Exceptional craftsmanship, lifetime protection, and trusted local service.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

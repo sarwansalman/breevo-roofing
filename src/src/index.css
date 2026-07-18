@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Outfit", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  --color-brand-50: #f4f8fa;
+  --color-brand-100: #e5f0f4;
+  --color-brand-200: #c6e0eb;
+  --color-brand-300: #97cada;
+  --color-brand-400: #5eaac4;
+  --color-brand-500: #428fa9;
+  --color-brand-600: #35768e;
+  --color-brand-700: #2f6175;
+  --color-brand-800: #2b5262;
+  --color-brand-900: #274553;
+  --color-brand-950: #162c37;
+  
+  --color-accent-gold-50: #fbfaf4;
+  --color-accent-gold-100: #f5f2e3;
+  --color-accent-gold-200: #ebe4c4;
+  --color-accent-gold-300: #dbcfa0;
+  --color-accent-gold-400: #c7b374;
+  --color-accent-gold-500: #b59c54;
+  --color-accent-gold-600: #9e8243;
+  --color-accent-gold-700: #836737;
+  --color-accent-gold-800: #6c5431;
+  --color-accent-gold-900: #5c472c;
+  --color-accent-gold-950: #342617;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #fafbfc;
+  color: #1a2327;
+  overflow-x: hidden;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f3f5;
+}
+::-webkit-scrollbar-thumb {
+  background: #cdd4dc;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #aab4be;
+}
